@@ -17,7 +17,7 @@ body {
     display: block;
     padding: 10px 0;
     text-align: left;
-    background-color: #ceceef;
+    background-color: #75d749;
 }
 
 #head {
@@ -85,6 +85,7 @@ body {
     -moz-border-radius: 2px 2px 0 0;
 }
 
+
 a {
     color: black;
     text-decoration: none;
@@ -138,19 +139,21 @@ li {
     position: fixed;
     top: 0;
     right: 0;
-    width: 80vw;
+    width: 75vw;
     height: 10vh;
-    background: white;
+    background: #6ae35b;;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 8px 0;
+    z-index: 1;
 }
 
 .container .header .third {
     width: 90%;
     display: flex;
     align-items: center;
+    background: #6ae35b;
 }
 
 .container .header .third .arama {
@@ -219,7 +222,7 @@ h1, h4{
     margin-left: 70px;
 }
 
-.ödemeler .başlık{
+.ödemeler .başlık, .yemek .başlık, .son .başlık, .etkinlik .başlık, .kisi .başlık{
     margin-top: 100px;
     display: flex;
     align-items: center;
@@ -238,7 +241,7 @@ h1, h4{
     border-bottom: 2px;
     border-style: solid;
 }
-.ödemeler .content ,.liste .content{
+.ödemeler .content ,.liste .content, .yemek .content, .son .content, .etkinlik .content, .kisi .content{
 
     display: flex;
     text-align: left;
@@ -246,4 +249,53 @@ h1, h4{
     padding: 10px 8px;
     border-bottom: 2px;
     border-style: solid;
+}
+
+table{
+    padding: 8px;
+    background-color: #8bdfee;
+    border-spacing: 5px;
+    border-radius: 10px;
+
+}
+th, tr{
+    text-align: left;
+    padding: 8px;
+    font-size: 13px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+@media screen and (max-width: 1050px) {
+    .menu li {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 940px) {
+    .menu li span{
+    display: none;
+    }
+    .menu{
+        align-items: center;
+    }
+    .menu li img{
+        width: 90px;
+        height: 53px;
+    }
+}
+@media screen and (max-width: 536px) {
+    .menu .brand h1 a{
+        font-size: 16px;
+    }
+    .container .content .card{
+    justify-content: center;
+    }
+    .menu li img{
+        width: 45px;
+        height: 27px;
+    }
+    .container .content table th:nth-child(2),
+    .container .content table td:nth-child(2){
+        display: none;
+    }
 }
