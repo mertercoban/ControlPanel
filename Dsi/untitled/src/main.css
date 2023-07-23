@@ -17,7 +17,8 @@ body {
     display: block;
     padding: 10px 0;
     text-align: left;
-    background-color: #75d749;
+    background-color: #15853d;
+    color: white;
 }
 
 #head {
@@ -69,10 +70,17 @@ body {
     font-size: 15px;
 }
 
-.data {
+form {
+    align-content: center;
+    align-items: center;
+    width: 310px;
+    height: 200px;
     size: 100px;
     border-style: solid;
     border-color: black;
+    border-radius: 15px;
+    margin-left: 625px;
+    margin-top: 100px;
 }
 
 .table {
@@ -87,7 +95,7 @@ body {
 
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -97,7 +105,7 @@ li {
 
 .menu {
     position: fixed;
-    background: #75d749;
+    background: #15853d;
     width: 20vw;
     min-height: 100vh;
     display: flex;
@@ -120,7 +128,7 @@ li {
 
 .menu li:hover {
     background: #bad5fc;
-    color: #1fabab;
+    color: #bad5fc;
 }
 
 .menu li img {
@@ -138,10 +146,10 @@ li {
 .container .header {
     position: fixed;
     top: 0;
-    right: 0;
+    right: 35px;
     width: 75vw;
     height: 10vh;
-    background: #6ae35b;;
+    background: #15853d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,12 +161,12 @@ li {
     width: 90%;
     display: flex;
     align-items: center;
-    background: #6ae35b;
+    background: #15853d;
 }
 
 .container .header .third .arama {
     flex: 3;
-    background: #6ae35b;
+    background: #15853d;
     display: flex;
     justify-content: center;
 }
@@ -178,16 +186,14 @@ li {
 
 }
 
-.container .header .third .kullanıcı {
-    background: #3737c0;
-}
-
 .container .header .third .kullanıcı input[type=text] {
     border: none;
     background: white;
     padding: 10px;
     width: 50%;
+    text-align-all: left;
 }
+
 .container .içerik{
     position: relative;
     margin-top: 10vh;
@@ -217,7 +223,13 @@ li {
     width: 200px;
     height: 100px;
 }
-h1, h4{
+h1{
+    font-size: 20px;
+    margin-left: 70px;
+    color: white;
+}
+
+h2, h4{
     font-size: 20px;
     margin-left: 70px;
 }
@@ -253,7 +265,7 @@ h1, h4{
 
 table{
     padding: 8px;
-    background-color: #8bdfee;
+    background-color: #bad5fc;
     border-spacing: 5px;
     border-radius: 10px;
 

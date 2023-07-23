@@ -1,10 +1,5 @@
-+ Kullanıcı tipleri olacak, yönetici, çalışan,( belki de müşteri)
-+ Giriş yapılınca düzenleme yapılabilecek ve yapılamayacak kullanıcıya göre yada bazı yerleri iki kullanıcı da düzenleyebilecek.
-
-+ hastanedeki sonuç sistemleri
-+ iş yerinde yöneticinin verdiği göreve göre ayarlamalar yapılacak ve görevin tamamlanıp tamamlanmadığına bakılacak sistemden onay verilecek.
-+ kütüphane sistemi gibi olup sisteme kayıtlı kitaplar olacak, bunların sayıları belli olacak ve sayılara göre kullanıcının alıp alamayacağına karar verilecek, kullanıcı kendi giriş yatığında alabileceği kitap sayısını, teslim gününü, alış gününü görebilecek eğer zamanında kitap teslim edilmezse ona göre kara liste oluşturuacak ve kullanıcı belirli bir süre kitap alamayacak. Kitaplar yaşlara göre ve kendi kategorilerine göre gruplara ayrılacak. ( yine iki kullanıcı bir kütüphane görevlisi bir de kitabı alan kullanıcı) 
-
-
-
-veli ekleme, çocuk ekleme, öğretmen ekleme, okul ekleme
+- veli ekleme, çocuk ekleme, öğretmen ekleme, okul ekleme aynı sayfada
+- ana sayfa yazısının yanına logo eklenecek
+- tablolar tekli halde düzgün görüntülenecek
+- ödeme planında öğrenci listesi görülecek sonra bu listede öğrenci yanında tümünü görüntüle olacak js ile ekran açılıp burada tüm ödeme bilgileri görüntülenecek
+- admin panelde kullanıcı girişi ortaya alınacak
