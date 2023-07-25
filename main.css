@@ -315,6 +315,30 @@ h3, h5 {
     margin-right: auto;
 }
 
+.yemek .content{
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    padding: 10px 8px;
+    border-bottom: 2px;
+    border-style: none;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.yemek .content th, .yemek .content tr{
+    text-align: left;
+    padding: 8px;
+    font-size: 13px;
+    border-style: none;
+}
+.liste .content th, .liste .content tr{
+    text-align: center;
+    padding: 8px;
+    font-size: 13px;
+    border-style: none;
+}
+
 .liste .başlık {
     margin-top: 100px;
     display: flex;
@@ -328,7 +352,7 @@ h3, h5 {
     margin-right: auto;
 }
 
-.ödemeler .content, .liste .content, .yemek .content, .son .content, .etkinlik .content, .kisi .content {
+.ödemeler .content, .son .content, .etkinlik .content, .kisi .content {
 
     display: flex;
     text-align: left;
@@ -351,15 +375,29 @@ table {
     background-color: #bad5fc;
     border-spacing: 5px;
     border-radius: 10px;
+    margin: 2%;
+}
 
+.liste table {
+    padding: 8px;
+    background-color: #bad5fc;
+    border-spacing: 5px;
+    border-radius: 10px;
+    margin: auto;
 }
 
 th, tr {
     text-align: left;
     padding: 8px;
     font-size: 13px;
-    border-style: solid;
+    border-style: none;
     border-width: 1px;
+}
+
+#gun1, #gun2, #gun3, #gun4, #gun5, #baslik2, #baslik3, #baslik4, #baslik5{
+    text-decoration: black;
+    text-decoration-line: underline;
+    font-size: 15px;
 }
 
 .content a {
