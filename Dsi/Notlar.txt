@@ -1,5 +1,0 @@
-- veli ekleme, çocuk ekleme, öğretmen ekleme, okul ekleme aynı sayfada
-+ ana sayfa yazısının yanına logo eklenecek
-- tablolar tekli halde düzgün görüntülenecek
-- ödeme planında öğrenci listesi görülecek sonra bu listede öğrenci yanında tümünü görüntüle olacak js ile ekran açılıp burada tüm ödeme bilgileri görüntülenecek
-+ admin panelde kullanıcı girişi ortaya alınacak
