@@ -38,7 +38,13 @@ body {
 #login p, #sifremiunuttum p, #mail p, #öğrenci p, #öğretmen p{
     margin-top: -8px;
 }
-
+#logout p a{
+    color: black;
+    text-decoration-color: black;
+}
+#logout p{
+    margin-top: -8px;
+}
 #login {
     font-weight: 200;
     font-size: 20px;
@@ -49,6 +55,19 @@ body {
     cursor: pointer;
     border-radius: 3px;
     background: rgb(31, 147, 69);
+    margin-top: 15px;
+}
+
+#logout{
+    font-weight: 200;
+    font-size: 20px;
+    width: 122px;
+    height: 35px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    background: rgb(255, 255, 255);
     margin-top: 15px;
 }
 

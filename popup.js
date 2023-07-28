@@ -147,3 +147,8 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     };
 });
+
+const authRoutes = require('./router/authRoutes')
+
+app.use('/',authRoutes)
+
