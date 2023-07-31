@@ -1,50 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" name="viewport" content="user-scalable=no, width=device-width"/>
+    <meta charset="utf-8" name="viewport" content="user-scalable=no, width=device-width" />
     <link rel="stylesheet" href="main.css">
     <title>Control Panel</title>
 
 <body>
-<div class="menu">
-    <div class="brand">
-        <h3><a href="panel.html"><img id="panellogo" src="img/logo.png"></a></h3>
+    <div class="menu">
+        <div class="brand">
+            <h3><a href="panel.html"><img id="panellogo" src="img/logo.png"></a></h3>
+        </div>
+        <ul>
+            <li id="kisi"><a href="kisieklemain.html"><img src="img/kisi.png" alt=""></a>&nbsp;<a
+                    href="kisieklemain.html"><span>Kişi Ekle</span></a>
+            </li>
+            <li id="liste"><a href="liste.html"><img src="img/liste.png" alt=""></a>&nbsp;<a
+                    href="liste.html"><span>Öğrenci Listesi</span></a>
+            </li>
+            <li id="etkinlik"><a href="etkinlikler.html"><img src="img/etkinlik.png" alt=""></a>&nbsp;<a
+                    href="etkinlikler.html"><span>Etkinlikler</span></a></li>
+            <li id="gunsonu"><a href="günsonu.html"><img src="img/gunsonu.png" alt=""></a>&nbsp;<a
+                    href="günsonu.html"><span>Gün Sonu</span></a></li>
+            <li id="yemeklistesi"><a href="yemek.html"><img src="img/yemeklistesi.png" alt=""></a>&nbsp;<a
+                    href="yemek.html"><span>Yemek Listesi</span></a></li>
+            <li id="ödeme"><a href="ödemeler.html"><img src="img/ödeme.png" alt=""></a>&nbsp;<a
+                    href="ödemeler.html"><span>Ödemeler</span></a>
+            </li>
+        </ul>
     </div>
-    <ul>
-        <li id="kisi"><a href="kisieklemain.html"><img src="img/kisi.png" alt=""></a>&nbsp;<a href="kisieklemain.html"><span>Kişi Ekle</span></a>
-        </li>
-        <li id="liste"><a href="liste.html"><img src="img/liste.png" alt=""></a>&nbsp;<a href="liste.html"><span>Öğrenci Listesi</span></a>
-        </li>
-        <li id="etkinlik"><a href="etkinlikler.html"><img src="img/etkinlik.png" alt=""></a>&nbsp;<a
-                href="etkinlikler.html"><span>Etkinlikler</span></a></li>
-        <li id="gunsonu"><a href="günsonu.html"><img src="img/gunsonu.png" alt=""></a>&nbsp;<a
-                href="günsonu.html"><span>Gün Sonu</span></a></li>
-        <li id="yemeklistesi"><a href="yemek.html"><img src="img/yemeklistesi.png" alt=""></a>&nbsp;<a
-                href="yemek.html"><span>Yemek Listesi</span></a></li>
-        <li id="ödeme"><a href="ödemeler.html"><img src="img/ödeme.png" alt=""></a>&nbsp;<a href="ödemeler.html"><span>Ödemeler</span></a>
-        </li>
-    </ul>
-</div>
-<div class="container">
-    <div class="header">
-        <div class="third">
-            <div class="arama">
-                <h1>DSİ KREŞ YÖNETİM PANELİ</h1>
+    <div class="container">
+        <div class="header">
+            <div class="third">
+                <div class="arama">
+                    <h1>DSİ KREŞ YÖNETİM PANELİ</h1>
+                </div>
+                <button id="logout">
+                    <p><a href="login.html">Çıkış Yap </a></p>
+                </button>
             </div>
         </div>
-    </div>
-    <div class="kisi">
-        <div class="başlık">
+        <div class="kisi">
+            <div class="başlık">
+
+            </div>
+            <div class="content">
+                <p>KİŞİ BAŞARIYLA EKLENMİŞTİR</p>
+            </div>
+            <button type="submit" id="login">
+                <p><a href="panel.html"> Ana Sayfa </a></p>
+            </button>
 
         </div>
-        <div class="content">
-            <p>KİŞİ BAŞARIYLA EKLENMİŞTİR</p>
-
-
-        </div>
     </div>
-</div>
-</div>
+    </div>
 
 </body>
+
 </html>

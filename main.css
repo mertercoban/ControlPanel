@@ -35,16 +35,23 @@ body {
     height: 120px;
 }
 
-#login p, #sifremiunuttum p, #mail p, #öğrenci p, #öğretmen p{
+#login p,
+#sifremiunuttum p,
+#mail p,
+#öğrenci p,
+#öğretmen p {
     margin-top: -8px;
 }
-#logout p a{
+
+#logout p a {
     color: black;
     text-decoration-color: black;
 }
-#logout p{
+
+#logout p {
     margin-top: -8px;
 }
+
 #login {
     font-weight: 200;
     font-size: 20px;
@@ -58,7 +65,7 @@ body {
     margin-top: 15px;
 }
 
-#logout{
+#logout {
     font-weight: 200;
     font-size: 20px;
     width: 122px;
@@ -71,7 +78,8 @@ body {
     margin-top: 15px;
 }
 
-#sifremiunuttum, #mail {
+#sifremiunuttum,
+#mail {
     font-weight: 150;
     font-size: 15px;
     width: 175px;
@@ -83,7 +91,9 @@ body {
     background: rgb(31, 147, 69);
     margin-top: 10px;
 }
-#öğrenci, #öğretmen{
+
+#öğrenci,
+#öğretmen {
     font-weight: 150;
     font-size: 15px;
     width: 175px;
@@ -95,6 +105,7 @@ body {
     background: rgb(31, 147, 69);
     margin-top: 10px;
 }
+
 #footer {
     position: absolute;
     bottom: 0;
@@ -124,7 +135,7 @@ form {
     margin-top: 5%;
 }
 
-.kisi form{
+.kisi form {
     align-content: center;
     align-items: center;
     width: auto;
@@ -138,14 +149,28 @@ form {
     margin-right: auto;
     margin-top: 5%;
 }
-.kisi .content #first{
+
+.kisi .content #first {
     width: auto;
 }
-.kisi .content #second{
+
+.kisi .content #second {
     margin-left: -30%;
     width: auto;
 
 }
+
+#ödemeay{
+    width: 25px;
+    margin-right:auto;
+}
+
+#ödemedurum{
+    margin-top: -30%;
+    margin-left: 30%;
+    width: 15px;
+}
+
 #data .text {
     width: -webkit-fill-available;
     height: 70px;
@@ -205,10 +230,12 @@ ul {
     width: 90px;
     height: 53px;
 }
-.data .kullanıcı img{
+
+.data .kullanıcı img {
     width: 5px;
     height: 5px;
 }
+
 .container {
     position: absolute;
     right: 0;
@@ -305,11 +332,14 @@ h1 {
     color: white;
 }
 
-h2, h4 {
+h2,
+h4 {
     font-size: 20px;
     align-items: center;
 }
-h3, h5 {
+
+h3,
+h5 {
     font-size: 20px;
     align-items: center;
     margin-left: 22%;
@@ -321,7 +351,11 @@ h3, h5 {
     margin-left: -15%;
 }
 
-.ödemeler .başlık, .yemek .başlık, .son .başlık, .etkinlik .başlık, .kisi .başlık {
+.ödemeler .başlık,
+.yemek .başlık,
+.son .başlık,
+.etkinlik .başlık,
+.kisi .başlık {
     margin-top: 100px;
     display: flex;
     align-items: center;
@@ -334,7 +368,7 @@ h3, h5 {
     margin-right: auto;
 }
 
-.yemek .content{
+.yemek .content {
     display: flex;
     text-align: left;
     justify-content: space-around;
@@ -345,13 +379,17 @@ h3, h5 {
     margin-left: auto;
     margin-right: auto;
 }
-.yemek .content th, .yemek .content tr{
+
+.yemek .content th,
+.yemek .content tr {
     text-align: left;
     padding: 8px;
     font-size: 13px;
     border-style: none;
 }
-.liste .content th, .liste .content tr{
+
+.liste .content th,
+.liste .content tr {
     text-align: center;
     padding: 8px;
     font-size: 13px;
@@ -371,7 +409,23 @@ h3, h5 {
     margin-right: auto;
 }
 
-.ödemeler .content, .son .content, .etkinlik .content, .kisi .content {
+.ödemeler .content,
+.son .content,
+.etkinlik .content,
+.kisi .content {
+
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    padding: 10px 8px;
+    border-bottom: 2px;
+    border-style: none;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kisi .content {
 
     display: flex;
     text-align: left;
@@ -384,7 +438,8 @@ h3, h5 {
     margin-right: auto;
 }
 
-.son .content th, tr {
+.son .content th,
+tr {
 
     font-size: 20px;
 }
@@ -405,7 +460,8 @@ table {
     margin: auto;
 }
 
-th, tr {
+th,
+tr {
     text-align: left;
     padding: 8px;
     font-size: 13px;
@@ -413,7 +469,15 @@ th, tr {
     border-width: 1px;
 }
 
-#gun1, #gun2, #gun3, #gun4, #gun5, #baslik2, #baslik3, #baslik4, #baslik5{
+#gun1,
+#gun2,
+#gun3,
+#gun4,
+#gun5,
+#baslik2,
+#baslik3,
+#baslik4,
+#baslik5 {
     text-decoration: black;
     text-decoration-line: underline;
     font-size: 15px;
@@ -474,7 +538,8 @@ th, tr {
     top: 0;
     width: 80%;
     height: 100%;
-    overflow: auto; /* Gerekirse kaydırmayı etkinleştir */
+    overflow: auto;
+    /* Gerekirse kaydırmayı etkinleştir */
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -495,7 +560,8 @@ th, tr {
 
 }
 
-.close:hover, .close:focus {
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
