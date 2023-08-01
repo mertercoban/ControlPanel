@@ -8,7 +8,7 @@
 
 <body>
     <div id="header">
-        <img id="logo" src="img/logomain.png">
+        <a href="login.html"> <img id="logo" src="img/logomain.png"> </a>
         <h3 id="head">DSİ Kreş Yönetici Kontrol Paneli</h3>
     </div>
     <form action role="form" method="post">
@@ -28,8 +28,8 @@
             <p>ŞİFRENİZ SIFIRLANMIŞTIR. ANA SAYFAYA GİDEREK GİRİŞ YAPABİLİRSİNİZ</p>
         </button>
         <br>
-        <button id="login">
-            <p><a href="login.html">Ana Sayfa </a></p>
+        <button type="button" id="login" onclick="window.location.href='../login.html';">
+            <p><a>Ana Sayfa </a></p>
         </button>
     </form>
     <div id="footer">
