@@ -1,30 +1,18 @@
 
-document.addEventListener("DOMContentLoaded", function() {
-        
-    for(var i=1;i<10;i++){
-        var modal;
-        var butt;
-        var span;
-    modal = document.getElementById("myModal"+i);
-    butt = document.getElementById("mybutt"+i);
-    span = document.getElementsByClassName("close")[0];
-    
-    (butt).onclick = function(){
-        modal.style.display = "block";
-    };
-    (span).onclick = function (){
-        modal.style.display = "none";
-    };
 
-    (window).onclick = function (event){
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    };
+var isInfoVisible = {};
+function showAll(person) {
+    var content = document.getElementById('myModal' + person);
+    if (isInfoVisible[person]) {
+        content.style.display = 'none';
+        isInfoVisible[person] = false;
+    }
+    else {
+        content.style.display = 'block';
+        isInfoVisible[person] = true;
+    }
 }
-});
 
 const authRoutes = require('./router/authRoutes')
 
-app.use('/',authRoutes)
-
+app.use('/', authRoutes)

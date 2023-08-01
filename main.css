@@ -546,17 +546,26 @@ tr {
 
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #bad5fc;
     margin: 15%;
     padding: 20px;
     border: 1px solid #888;
     width: 70%;
     height: 80%;
+    border-radius: 20px;
+}
+
+.modal-content p {
+    font-weight: bold;
+}
+
+.ödemeler button{
+    border-radius: 5px;
 }
 
 .close {
     font-weight: bold;
-    color: #bad5fc;
+    color: black;
     float: right;
     font-size: 35px;
 
@@ -569,21 +578,26 @@ tr {
     cursor: pointer;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 10px;
-    background-color:white;
+    background-color: white;
     border-radius: 10px;
-    height: auto;
     border-color: rgb(31, 147, 69);
+
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: #abbed7;
-    height: 15%;
 }
 
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
     background-color: rgb(31, 147, 69);
     border-radius: 10px;
+}
+
+::-webkit-scrollbar-button {
+    border-style: ridge;
+    border-radius: 3px;
+    background-color: #abbed7;
 }
