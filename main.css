@@ -29,7 +29,7 @@ body {
     margin-left: 5px;
     border-style: none;
     border-radius: 200px;
-    text-align-all: left;
+    text-align: left;
     border-spacing: initial;
     width: 150px;
     height: 120px;
@@ -292,7 +292,7 @@ ul {
     background: white;
     padding: 10px;
     width: 50%;
-    text-align-all: left;
+    text-align: left;
 }
 
 .container .içerik {

@@ -14,5 +14,6 @@ function showAll(person) {
 }
 
 const authRoutes = require('./router/authRoutes')
-
+const cookieParser = require('cookie-parser')
 app.use('/', authRoutes)
+app.use(cookieParser())
