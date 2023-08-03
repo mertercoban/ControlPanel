@@ -206,6 +206,7 @@ ul {
     display: flex;
     flex-direction: column;
     overflow: auto;
+    z-index: 1;
 }
 
 .menu .brand {
@@ -376,7 +377,7 @@ h5 {
     padding: 10px 8px;
     border-bottom: 2px;
     border-style: none;
-    width: 95%;
+    width: max-content;
     margin-left: auto;
     margin-right: auto;
 }
@@ -424,6 +425,7 @@ h5 {
     width: max-content;
     margin-left: auto;
     margin-right: auto;
+    z-index: 0;
 }
 
 .kisi .content {
@@ -508,6 +510,20 @@ tr {
         height: 53px;
     }
 
+    .etkinlik .content,
+    .yemek .content {
+
+        display: flex;
+        text-align: left;
+        justify-content: space-around;
+        padding: 10px 8px;
+        border-bottom: 2px;
+        border-style: none;
+        width: auto;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media screen and (max-width: 536px) {
@@ -529,6 +545,22 @@ tr {
         display: none;
     }
 
+
+    .etkinlik .content,
+    .yemek .content {
+
+        display: flex;
+        text-align: left;
+        justify-content: space-around;
+        padding: 10px 8px;
+        border-bottom: 2px;
+        border-style: none;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        /*simgelerin alt alta olması için*/
+    }
+
 }
 
 .modal {
@@ -540,7 +572,6 @@ tr {
     width: 80%;
     height: 100%;
     overflow: auto;
-    /* Gerekirse kaydırmayı etkinleştir */
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -559,7 +590,7 @@ tr {
     font-weight: bold;
 }
 
-.ödemeler button{
+.ödemeler button {
     border-radius: 5px;
 }
 
