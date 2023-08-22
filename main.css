@@ -160,15 +160,27 @@ form {
 
 }
 
-#ödemeay {
+#ödemeay{
     width: 75px;
     margin-right: auto;
     position: absolute;
 }
 
-#ödemedurum {
+#ödemetarihi {
+    width: 150px;
+    margin-left: 15%;
+    position: absolute;
+}
+
+#ödemedurum{
     margin-left: 30%;
-    width: 75px;
+    width: 200px;
+    position: absolute;
+}
+
+#makbuzno {
+    margin-left: 45%;
+    width: 150px;
     position: absolute;
 }
 
@@ -490,6 +502,54 @@ tr {
     color: black;
 }
 
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 20%;
+    top: 0;
+    width: 80%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.modal-content {
+    background-color: #bad5fc;
+    margin: 15%;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.modal-content p {
+    font-weight: bold;
+}
+
+.ödemeler button {
+    border-radius: 5px;
+}
+
+.close {
+    font-weight: bold;
+    color: black;
+    float: right;
+    font-size: 35px;
+
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
 @media screen and (max-width: 1050px) {
     .menu li {
         font-size: 20px;
@@ -523,6 +583,34 @@ tr {
         flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #ödemeay{
+        width: 75px;
+        margin-right: auto;
+        position: absolute;
+    }
+    
+    #ödemetarihi {
+        width: 150px;
+        margin-left: 14%;
+        position: absolute;
+    }
+    
+    #ödemedurum{
+        margin-left: 37%;
+        width: 200px;
+        position: absolute;
+    }
+    
+    #makbuzno {
+        margin-left: 65%;
+        width: 150px;
+        position: absolute;
+    }
+
+    .modal-content{
+        width: 90%;
     }
 }
 
@@ -561,52 +649,6 @@ tr {
         /*simgelerin alt alta olması için*/
     }
 
-}
-
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 20%;
-    top: 0;
-    width: 80%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-
-.modal-content {
-    background-color: #bad5fc;
-    margin: 15%;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 70%;
-    height: 80%;
-    border-radius: 20px;
-}
-
-.modal-content p {
-    font-weight: bold;
-}
-
-.ödemeler button {
-    border-radius: 5px;
-}
-
-.close {
-    font-weight: bold;
-    color: black;
-    float: right;
-    font-size: 35px;
-
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
 }
 
 ::-webkit-scrollbar {
