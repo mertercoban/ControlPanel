@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" name="viewport" content="user-scalable=no, width=device-width" />
+    <link rel="stylesheet" href="src/main.css">
+    <title>Control Panel</title>
+
+<body>
+    <div id="header">
+
+        <a href="login-page.html"> <img id="logo" src="img/logomain.png"> </a>
+        <h3 id="head">DSİ Kreş Yönetici Kontrol Paneli</h3>
+    </div>
+    <form action role="form" method="post">
+
+        <div id="data">
+
+            <p class="text"><br />Kullanıcı Girişi <br /></p>
+
+            <div id="kullanıcı">
+                <!-- <label>Kullanıcı Adı:</label> -->
+                <br /><img src="img/logina.png">
+                <input type="text" name="formkullanıcı" class="form-control" placeholder="T.C Kimlik No" maxlength="11"
+                    required>
+            </div>
+            <div id="şifre">
+                <!-- <label>Şifre:</label> -->
+                <br /><img src="img/loginb.png">
+                <input type="password" name="formşifre" class="form-control" placeholder="Şifre" required>
+                <br />
+                <br>
+            </div>
+        </div>
+        <button type="submit" id="login" onclick="window.location.href='/src/main-panel.html';">
+            <p><a > Giriş Yap </a></p>
+        </button>
+        <button type="submit" id="sifremiunuttum" onclick="window.location.href='/src/password.html';">
+            <p><a>Şifremi Unuttum </a></p>
+        </button>
+    </form>
+    <div id="footer">
+        <h6>© 2023 Tüm hakları saklıdır.</h6>
+
+    </div>
+</body>
+</html>

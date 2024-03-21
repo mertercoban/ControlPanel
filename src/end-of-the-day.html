@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" name="viewport" content="user-scalable=no, width=device-width"/>
+    <link rel="stylesheet" href="main.css">
+    <title>Control Panel</title>
+
+<body>
+<div class="menu">
+    <div class="brand">
+        <h3><a href="main-panel.html"><img id="panellogo" src="../img/logo.png"></a></h3>
+    </div>
+    <ul>
+        <li onclick="window.location.href='add-person.html';" id="kisi"><a><img src="../img/kisi.png"
+                                                                                alt=""></a>&nbsp;<a><span>Kişi Ekle</span></a>
+        </li>
+        <li onclick="window.location.href='list.html';" id="liste"><a><img src="../img/liste.png"
+                                                                           alt=""></a>&nbsp;<a><span>Öğrenci Listesi</span></a>
+        </li>
+        <li onclick="window.location.href='events.html';" id="etkinlik"><a><img src="../img/etkinlik.png" alt=""></a>&nbsp;<a><span>Etkinlikler</span></a>
+        </li>
+        <li onclick="window.location.href='../end-of-the-day.html';" id="gunsonu"><a><img src="../img/gunsonu.png"
+                                                                                          alt=""></a>&nbsp;<a><span>Gün Sonu</span></a>
+        </li>
+        <li onclick="window.location.href='food-list.html';" id="yemeklistesi"><a><img src="../img/yemeklistesi.png"
+                                                                                       alt=""></a>&nbsp;<a><span>Yemek Listesi</span></a>
+        </li>
+        <li onclick="window.location.href='pay-list.html';" id="ödeme"><a><img src="../img/ödeme.png"
+                                                                               alt=""></a>&nbsp;<a><span>Ödemeler</span></a>
+        </li>
+    </ul>
+</div>
+<div class="container">
+    <div class="header">
+        <div class="third">
+            <div class="arama">
+                <h1>DSİ KREŞ YÖNETİM PANELİ</h1>
+                <!--  <input class="text" placeholder="Ara...">
+            <button type="submit"><img src="img/search.png" alt=""></button> -->
+            </div>
+            <button id="logout" onclick="window.location.href='login-page.html';">
+                <p><a>Çıkış Yap </a></p>
+            </button>
+        </div>
+    </div>
+    <div class="son">
+        <div class="başlık">
+            <h2>GÜN SONU</h2>
+            <!--  <a href="#" class="button">Tümünü Görüntüle</a> -->
+        </div>
+        <div class="content">
+            <table>
+                <tr id="baslik4">
+                    <th>OLAY</th>
+                    <th>DEĞERLENDİRME</th>
+
+                </tr>
+                <tr>
+                    <th>Kahvaltı</th>
+                    <th>😊 İyi</th>
+                </tr>
+                <tr>
+                    <th>Öğlen Yemeği</th>
+                    <th>😶 Kötü</th>
+                </tr>
+                <tr>
+                    <th>Uyku</th>
+                    <th>😬 Orta</th>
+                </tr>
+                <tr>
+                    <th>Etkinlikler</th>
+                    <th>🤪 Çok iyi</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
