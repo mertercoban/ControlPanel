@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" name="viewport" content="user-scalable=no, width=device-width" />
+    <link rel="stylesheet" href="main.css">
+    <title>Control Panel</title>
+
+<body>
+    <div class="menu">
+        <div class="brand">
+            <h3><a href="main-panel.html"><img id="panellogo" src="../img/logo.png"></a></h3>
+        </div>
+        <ul>
+            <li onclick="window.location.href='add-person.html';" id="kisi"><a><img src="../img/kisi.png" alt=""></a>&nbsp;<a><span>Kişi Ekle</span></a></li>
+            <li onclick="window.location.href='../list.html';" id="liste"><a><img src="../img/liste.png" alt=""></a>&nbsp;<a><span>Öğrenci Listesi</span></a></li>
+            <li onclick="window.location.href='events.html';" id="etkinlik"><a><img src="../img/etkinlik.png" alt=""></a>&nbsp;<a><span>Etkinlikler</span></a></li>
+            <li onclick="window.location.href='end-of-the-day.html';" id="gunsonu"><a><img src="../img/gunsonu.png" alt=""></a>&nbsp;<a><span>Gün Sonu</span></a></li>
+            <li onclick="window.location.href='food-list.html';" id="yemeklistesi"><a><img src="../img/yemeklistesi.png" alt=""></a>&nbsp;<a><span>Yemek Listesi</span></a></li>
+            <li onclick="window.location.href='pay-list.html';" id="ödeme"><a><img src="../img/ödeme.png" alt=""></a>&nbsp;<a><span>Ödemeler</span></a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="header">
+            <div class="third">
+                <div class="arama">
+                    <h1>DSİ KREŞ YÖNETİM PANELİ</h1>
+                    <!--  <input class="text" placeholder="Ara...">
+                <button type="submit"><img src="img/search.png" alt=""></button> -->
+                </div>
+                <button id="logout" onclick="window.location.href='../login-page.html';">
+                    <p><a>Çıkış Yap </a></p>
+                </button>
+            </div>
+        </div>
+        <div class="liste">
+            <div class="başlık">
+                <h2>ÖĞRENCİ LİSTESİ</h2>
+                <!--  <a href="#" class="button">Tümünü Görüntüle</a> -->
+            </div>
+            <div class="content">
+                <table>
+                    <tr id="baslik2">
+                        <th>T.C</th>
+                        <th>NUMARA</th>
+                        <th>AD</th>
+                        <th>SOYAD</th>
+                    </tr>
+                    <tr>
+                        <th>13232698657</th>
+                        <th>1</th>
+                        <th>AYSEL</th>
+                        <th>DEDEMAN</th>
+                    </tr>
+                    <tr>
+                        <th>12345678965</th>
+                        <th>5</th>
+                        <th>VELİ</th>
+                        <th>TOPÇU</th>
+                    </tr>
+                    <tr>
+                        <th>98674258365</th>
+                        <th>56</th>
+                        <th>ECRİN</th>
+                        <th>DEDEMAN</th>
+                    </tr>
+                    <tr>
+                        <th>68435921765</th>
+                        <th>89</th>
+                        <th>ADA</th>
+                        <th>TOPÇU </th>
+                    </tr>
+                    <tr>
+                        <th>69536874259</th>
+                        <th>105</th>
+                        <th>AHMET</th>
+                        <th>DEDEMAN</th>
+                    </tr>
+                    <tr>
+                        <th>65314278536</th>
+                        <th>98</th>
+                        <th>ECRİN</th>
+                        <th>TOPÇU</th>
+                    </tr>
+                    <tr>
+                        <th>98546278326</th>
+                        <th>116</th>
+                        <th>ADA</th>
+                        <th>DEDEMAN</th>
+                    </tr>
+                    <tr>
+                        <th>45786215698</th>
+                        <th>247</th>
+                        <th>ECRİN</th>
+                        <th>TOPÇU</th>
+                    </tr>
+                    <tr>
+                        <th>32564196358</th>
+                        <th>267</th>
+                        <th>SELVİ</th>
+                        <th>DEDEMAN</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
